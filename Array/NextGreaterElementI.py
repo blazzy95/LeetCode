@@ -25,10 +25,3 @@ class Solution:
             if flag:
                 res.append(-1)
         return res                
-
-
-
-list1 = [4,1,2]
-list2 = [1,3,4,2]
-res = Solution().nextGreaterElement(list1, list2)
-print(res)
